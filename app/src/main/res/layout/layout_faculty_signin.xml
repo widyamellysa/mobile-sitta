@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/loginHeaderFacultyLogin"
+        android:text="Login"
+        android:layout_marginTop="@dimen/loginViewsMarginFacultyLogin"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_faculty_username"
+        style="@style/parentFacultyLogin"
+        android:layout_marginTop="@dimen/loginViewsMarginFacultyLogin"
+        app:errorEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextUsername"
+            style="@style/modifiedEditTextFacultyLogin"
+            android:hint="@string/login_username_hint"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_faculty_password"
+        style="@style/parentFacultyLogin"
+        android:layout_marginTop="@dimen/loginViewsMarginFacultyLogin"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextPassword"
+            style="@style/modifiedEditTextFacultyLogin"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/tv_faculty_forgotpassword"
+        style="@style/parentFacultyLogin"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textColor="#2661FA"
+        android:text="Forgot your password?"
+        android:layout_marginTop="@dimen/loginViewsMarginFacultyLogin"
+        android:gravity="end" />
+    <Button
+        android:id="@+id/btn_faculty_login"
+        style="@style/loginButtonFacultyLogin"
+        android:text="Login"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/loginViewsMarginFacultyLogin"/>
+</LinearLayout>

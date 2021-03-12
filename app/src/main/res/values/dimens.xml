@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">10dp</dimen>
+    <dimen name="registerViewsMargin">3dp</dimen>
+    <dimen name="passwordRegisterViewsMargin">7dp</dimen>
+    <dimen name="cnfpasswordRegisterViewsMargin">0dp</dimen>
+    <!--added for faculty login design-->
+    <!--dimes for design 3-->
+    <dimen name="headerTextSizeFacultyLogin">30sp</dimen>
+    <dimen name="newsMoreTextSizeFacultyLogin">12sp</dimen>
+    <dimen name="loginCardRadiusFacultyLogin">20dp</dimen>
+    <dimen name="loginViewsMarginFacultyLogin">20dp</dimen>
+    <dimen name="signup_text_margin_top_FacultyLogin">10dp</dimen>
+    <!--added for Forgot Password design-->
+    <!--dimes for design 3-->
+    <dimen name="headerTextSizeForgotPassword">22sp</dimen>
+    <dimen name="newsMoreTextSizeForgotPassword">12sp</dimen>
+    <dimen name="loginCardRadiusForgotPassword">20dp</dimen>
+    <dimen name="loginViewsMarginForgotPassword">20dp</dimen>
+    <dimen name="signup_text_margin_top">10dp</dimen>
+</resources>

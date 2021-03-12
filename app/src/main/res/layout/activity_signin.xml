@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.login.SigninActivity"
+    android:background="@drawable/faculty_login_background"
+    android:focusableInTouchMode="true">
+
+    <!--Layout file named layout_faculty_login.xml is linked with this...-->
+    <include layout="@layout/layout_faculty_signin"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
